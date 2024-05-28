@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 import json
-# import streamlit as st
+import streamlit as st
 
 pickle_in = open("bhp.pickle","rb")
 regressor = pickle.load(pickle_in)
